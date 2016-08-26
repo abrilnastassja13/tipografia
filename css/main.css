@@ -23,14 +23,25 @@ h4 {
 	margin: auto;
 }
 
-span:hover {
-	font-size: 90px;
-	color: #F933F2;
-	transition: 1s;
-}
-
 .caja:hover {
 	width: 240px;
 	height: 300px;
+	transition: 1s;
+}
+
+.caja:hover span {
+	color: #F933F2;
+	transition: 1s;
+	font-size: 90px;
+}
+
+.caja:hover h4 {
+	color: #F933F2;
+	transition: 1s;
+
+}
+
+.caja:hover p {
+	color: #F933F2;
 	transition: 1s;
 }
