@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'iconos';
+  src:  url('fonts/iconos.eot?ux0p69');
+  src:  url('fonts/iconos.eot?ux0p69#iefix') format('embedded-opentype'),
+    url('fonts/iconos.ttf?ux0p69') format('truetype'),
+    url('fonts/iconos.woff?ux0p69') format('woff'),
+    url('fonts/iconos.svg?ux0p69#iconos') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconos' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before {
+  content: "\e900";
+}
+.icon-diamond:before {
+  content: "\e901";
+}
+.icon-cup:before {
+  content: "\e902";
+}
+.icon-paperplane:before {
+  content: "\e903";
+}
+.icon-food:before {
+  content: "\e905";
+}
+.icon-coffee:before {
+  content: "\e904";
+}
+
